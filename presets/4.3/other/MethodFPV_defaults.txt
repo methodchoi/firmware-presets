@@ -3,12 +3,14 @@
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ AUTHOR: Methodchoi
-#$ DESCRIPTION: Set defaults used by MethodFPV.  The following will be set:
-#$ DESCRIPTION:     - Minimum arm angle to 180 degrees
-#$ DESCRIPTION:     - Turn off unused beepers
-#$ DESCRIPTION:     - Enable Dshot Beacon
-#$ DESCRIPTION:     - Disable Barometer and Magnetometer
-#$ DESCRIPTION:     - Set Blackbox to gyro scaled
+#$ DESCRIPTION: Set defaults used by MethodFPV.  
+#$ DESCRIPTION: Options
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION:  - Minimum arm angle to 180 degrees
+#$ DESCRIPTION:  - Turn off unused beepers
+#$ DESCRIPTION:  - Enable Dshot Beacon
+#$ DESCRIPTION:  - Disable Barometer and Magnetometer
+#$ DESCRIPTION:  - Set Blackbox to gyro scaled
 #$ DESCRIPTION: You can uncheck a setting in the Options, if you do not want to configure any particular setting.
 
 #$ OPTION BEGIN (CHECKED): Set min arm angle
