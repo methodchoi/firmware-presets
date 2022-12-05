@@ -3,6 +3,9 @@
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ AUTHOR: Methodchoi
+
+#$ PARSER: MARKED
+
 #$ DESCRIPTION: Set defaults used by MethodFPV.  
 #$ DESCRIPTION: Options
 #$ DESCRIPTION: -----------
