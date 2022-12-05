@@ -7,7 +7,7 @@
 
 #$ DESCRIPTION: Information:
 #$ DESCRIPTION: -----------
-#$ DESCRIPTION: General DJI OSD setup with the WTFOS root hack.
+#$ DESCRIPTION: General DJI OSD setup with the WTFOS root hack.  Select the UART that the DJI unit is connected to on the flight controller to set the proper displayport_msp_serial value.
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
 set osd_warn_batt_not_full = OFF
@@ -46,6 +46,7 @@ set osd_flip_arrow_pos = 65
 set osd_core_temp_pos = 248
 set osd_log_status_pos = 97
 set osd_total_flights_pos = 139
+set vcd_video_system = PAL
 set osd_displayport_device = MSP
 
 #$ OPTION_GROUP BEGIN: DJI UART
