@@ -6,8 +6,7 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: Set defaults used by MethodFPV.  
-#$ DESCRIPTION: Options
+#$ DESCRIPTION: Set defaults used by MethodFPV.  The following settings are applied:
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION:  - Minimum arm angle to 180 degrees
 #$ DESCRIPTION:  - Turn off unused beepers
