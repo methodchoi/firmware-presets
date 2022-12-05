@@ -172,6 +172,7 @@
       "Jye Smith",
       "KMfpv",
       "LeadFingers",
+      "Methodchoi",
       "MinChan Kim",
       "mouseFPV",
       "MrAlucardDante",
@@ -813,6 +814,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/osd/MethodFPV_DJI_WTFOS.txt",
+      "hash": "818082ba5c5baff49bdacf1ecdb17ca93759f365a842ff772f93d015297d09f0",
+      "title": "MethodFPV - DJI WTFOS",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "DJI"
+      ],
+      "author": "Methodchoi",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/osd/UAV_tech_Analog.txt",
       "hash": "b304bd4f3d0e6ab42840badced7e07847ca654c5fd048dba8c53b96128788763",
       "title": "UAV Tech - Analog",
@@ -1387,6 +1403,19 @@
         "MultiGP"
       ],
       "author": "Ivan Efimov (Limon)",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/MethodFPV.txt",
+      "hash": "2728fa362fe3e98ab3362432cb285cbf2a9647535eb68652b6449688e95af468",
+      "title": "MethodFPV rates",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "author": "Methodchoi",
       "priority": 10000
     },
     {
