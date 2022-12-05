@@ -1,0 +1,41 @@
+#$ TITLE: MethodFPV Default Settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ AUTHOR: Methodchoi
+#$ DESCRIPTION: MethodFPV Default settings:
+#$ DESCRIPTION:   - Minimum arm angle to 180 degrees
+#$ DESCRIPTION:   - Turn off unused beepers
+#$ DESCRIPTION:   - Enable Dshot Beacon
+#$ DESCRIPTION:   - Disable Barometer and Magnetometer
+#$ DESCRIPTION:   - Set Blackbox to gyro scaled
+
+#$ OPTION BEGIN (CHECKED): Set min arm angle
+    set small_angle = 180
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Disabled unused beepers
+    beeper -RX_LOST
+    beeper -RX_LOST_LANDING
+    beeper -ARMING_GPS_FIX
+    beeper -GPS_STATUS
+    beeper -READY_BEEP
+    beeper -DISARM_REPEAT
+    beeper -ON_USB
+    beeper -BLACKBOX_ERASE
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Configure dshot beeper
+    beacon RX_SET
+    set beeper_dshot_beacon_tone = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Disable barometer and magnetometer
+    set mag_hardware = NONE
+    set baro_hardware = NONE
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Set blackbox to gyro scaled
+    set debug_mode = GYRO_SCALED
+    blackbox_sample_rate = 1/4
+#$ OPTION END

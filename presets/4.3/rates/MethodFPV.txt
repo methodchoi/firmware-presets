@@ -4,7 +4,7 @@
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ AUTHOR: Methodchoi
-#$ DESCRIPTION: MethodFPV Freestyle rates.  Default is 830 rate.  Optionally check 'Actual rate 650' if you want the slower 650 rates.
+#$ DESCRIPTION: MethodFPV Freestyle rates.  Default is 830 Actual rates.  Optionally, check 'Actual rate 650' if you want the slower 650 rates.
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
 set rates_type = ACTUAL

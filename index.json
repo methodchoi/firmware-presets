@@ -815,7 +815,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/MethodFPV_DJI_WTFOS.txt",
-      "hash": "818082ba5c5baff49bdacf1ecdb17ca93759f365a842ff772f93d015297d09f0",
+      "hash": "56094b2d5b1b24bb7024e4bfdb426452f32dfded9c04f820fd8e700f60b8effe",
       "title": "MethodFPV - DJI WTFOS",
       "firmware_version": [
         "4.3"
@@ -934,6 +934,18 @@
         "Garban"
       ],
       "author": "Garban",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/MethodFPV_defaults.txt",
+      "hash": "c58e204c2cc86b10a49e80631710846700f85576a5f25e70cc8af7712513d071",
+      "title": "MethodFPV Default Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "author": "Methodchoi",
       "priority": 0
     },
     {
@@ -1407,8 +1419,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/MethodFPV.txt",
-      "hash": "2728fa362fe3e98ab3362432cb285cbf2a9647535eb68652b6449688e95af468",
-      "title": "MethodFPV rates",
+      "hash": "9c49cea3dc127407a1a2111b74747e72e3f676667aa24c115107db898c709969",
+      "title": "MethodFPV Freestyle rates",
       "firmware_version": [
         "4.3",
         "4.4"

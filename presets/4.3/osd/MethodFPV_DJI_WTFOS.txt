@@ -51,27 +51,27 @@ set osd_displayport_device = MSP
 
 #$ OPTION_GROUP BEGIN: DJI UART
 
-#$ OPTION BEGIN (UNCHECKED): URART 1
+#$ OPTION BEGIN (UNCHECKED): UART 1
     set displayport_msp_serial = 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): URART 2
+#$ OPTION BEGIN (UNCHECKED): UART 2
     set displayport_msp_serial = 1
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): URART 3
+#$ OPTION BEGIN (UNCHECKED): UART 3
     set displayport_msp_serial = 2
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): URART 4
+#$ OPTION BEGIN (UNCHECKED): UART 4
     set displayport_msp_serial = 3
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): URART 5
+#$ OPTION BEGIN (UNCHECKED): UART 5
     set displayport_msp_serial = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): URART 6
+#$ OPTION BEGIN (UNCHECKED): UART 6
     set displayport_msp_serial = 5
 #$ OPTION END
 
