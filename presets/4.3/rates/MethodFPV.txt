@@ -33,14 +33,6 @@ set roll_srate = 65
 set pitch_srate = 65
 set yaw_srate = 55
 
-rateprofile 2
-
-rateprofile 3
-
-rateprofile 4
-
-rateprofile 5
-
 #$ OPTION_GROUP BEGIN: Selected rateprofile
 
 #$ OPTION BEGIN (CHECKED): Rateprofile 0
